@@ -1,6 +1,6 @@
 [package]
 name = "detect-newline"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 rust-version = "1.81"
 description = "Detect and normalize line endings (LF, CRLF, CR) — a zero-dependency, no_std toolkit. A Rust take on Node's detect-newline."
