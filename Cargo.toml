@@ -1,0 +1,25 @@
+[package]
+name = "detect-newline"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.81"
+description = "Detect and normalize line endings (LF, CRLF, CR) — a zero-dependency, no_std toolkit. A Rust take on Node's detect-newline."
+documentation = "https://docs.rs/detect-newline"
+repository = "https://github.com/trananhtung/detect-newline"
+homepage = "https://github.com/trananhtung/detect-newline"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+keywords = ["newline", "eol", "crlf", "line-ending", "detect"]
+categories = ["text-processing", "no-std"]
+authors = ["trananhtung"]
+exclude = ["/.github", "/.gitignore"]
+
+[dependencies]
+
+[lints.rust]
+missing_docs = "warn"
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = "warn"
+pedantic = "warn"
